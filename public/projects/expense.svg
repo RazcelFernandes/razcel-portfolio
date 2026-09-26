@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750">
+<rect width="1200" height="750" fill="#111"/>
+<rect x="80" y="80" width="1040" height="590" rx="32" fill="#181818" stroke="#333"/>
+<text x="120" y="220" fill="#fff" font-size="54" font-family="Arial" font-weight="700">Expense Tracker</text>
+<text x="120" y="290" fill="#aaa" font-size="26" font-family="Arial">Personal Finance</text>
+<circle cx="1020" cy="160" r="18" fill="#fff"/>
+</svg>

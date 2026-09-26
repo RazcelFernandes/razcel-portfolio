@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #f7f7f7;
+  --fg: #111111;
+  --muted: #666666;
+  --card: #ffffff;
+  --border: rgba(17,17,17,.12);
+}
+
+.dark {
+  --bg: #080808;
+  --fg: #f7f7f7;
+  --muted: #a3a3a3;
+  --card: #101010;
+  --border: rgba(255,255,255,.12);
+}
+
+* { box-sizing: border-box; scroll-behavior: smooth; }
+html, body { margin: 0; padding: 0; }
+body {
+  background: var(--bg);
+  color: var(--fg);
+  transition: background .3s ease, color .3s ease;
+}
+a { color: inherit; text-decoration: none; }
+
+.glass {
+  background: color-mix(in srgb, var(--card) 85%, transparent);
+  backdrop-filter: blur(18px);
+  border: 1px solid var(--border);
+}
+
+.grid-bg {
+  background-image:
+    linear-gradient(to right, rgba(255,255,255,.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255,255,255,.03) 1px, transparent 1px);
+  background-size: 42px 42px;
+}
+
+.particle {
+  position: absolute;
+  border-radius: 9999px;
+  background: currentColor;
+  opacity: .08;
+  animation: float 12s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%,100% { transform: translate3d(0,0,0); }
+  50% { transform: translate3d(20px,-28px,0); }
+}
+
+.section-title {
+  @apply text-3xl md:text-5xl font-semibold tracking-tight;
+}
+
+.muted { color: var(--muted); }
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+}
