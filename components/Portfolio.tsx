@@ -48,7 +48,7 @@ const certs = [
       id: "Mempelajari konsep business intelligence dan pengambilan keputusan berbasis data."
     },
     image: "/certificates/business-intelligence.png",
-    credential: "https://drive.google.com/file/d/1SYNRAhnjBDcAOM8p_beBeRrhhniQ9Csn/view?usp=sharing"
+    credential: "https://drive.google.com/file/d/1sIVBgfRwWDMwNL9ldgORcRaNVfhgkyQo/view?usp=drive_link"
   },
   {
     title: "Fundamental Web Programming",
@@ -57,7 +57,7 @@ const certs = [
       id: "Mempelajari dasar pengembangan web dan struktur website."
     },
     image: "/certificates/web-programming.png",
-    credential: "https://drive.google.com/file/d/1F9X0n6_lKctDmBihRbyxnbg6ZOsDt_vv/view?usp=sharing"
+    credential: "https://drive.google.com/file/d/1dDbTxgLMDRxr4R-cKmGsCnqh6l2IZKQf/view?usp=drive_link"
   },
   {
     title: "JavaScript Programming Language Fundamentals",
@@ -66,7 +66,7 @@ const certs = [
       id: "Memahami konsep dasar JavaScript dan fundamental pemrograman."
     },
     image: "/certificates/javascript.png",
-    credential: "https://drive.google.com/file/d/1-xodZwuCxc9vviYjc3WCNnpJSN4WBkC2/view?usp=sharing"
+    credential: "https://drive.google.com/file/d/1IWl9UC9_i-kD2vx406xn1JSqRk71xH_2/view?usp=drive_link"
   },
   {
     title: "Intro Data Analyst",
@@ -75,7 +75,7 @@ const certs = [
       id: "Pengenalan analisis data, interpretasi data, dan pembuatan insight."
     },
     image: "/certificates/data-analyst.png",
-    credential: "https://drive.google.com/file/d/1eerxJXOcR_w2xqU472x-aaLFmU6H-SWu/view?usp=sharing"
+    credential: "https://drive.google.com/file/d/1M0xPt_akaz6JESyziNonGOS-xv_Y8r69/view?usp=drive_link"
   },
   {
     title: "TOEFL Result",
@@ -84,7 +84,7 @@ const certs = [
       id: "Hasil penilaian kemampuan bahasa Inggris."
     },
     image: "/certificates/toefl.png",
-    credential: "https://drive.google.com/file/d/1o8B7-zBL8n12LXpcsDi6ENcSdp9NffMs/view?usp=sharing"
+    credential: "https://drive.google.com/file/d/10Q7LzmQDrChUOob4ebW2iXk9pxgMpqvk/view?usp=drive_link"
   }
 ];
 
@@ -190,11 +190,37 @@ const certs = [
           );
         })}
         </nav>
-        <div className="mt-auto space-y-3 text-sm text-white/65">
-          <a href="#" className="flex items-center gap-2 hover:text-white"><Github size={16}/> GitHub</a>
-          <a href="#" className="flex items-center gap-2 hover:text-white"><Linkedin size={16}/> LinkedIn</a>
-          <a href="mailto:your@email.com" className="flex items-center gap-2 hover:text-white"><Mail size={16}/> Email</a>
-        </div>
+      <div className="mt-auto space-y-3 text-sm text-white/65">
+
+        <a
+          href="https://github.com/RazcelFernandes"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 hover:text-white transition"
+        >
+          <Github size={16}/>
+          GitHub
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/razcel-fernandes-01b707431/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 hover:text-white transition"
+        >
+          <Linkedin size={16}/>
+          LinkedIn
+        </a>
+
+        <a
+          href="mailto:razcelfernandes25@gmail.com"
+          className="flex items-center gap-2 hover:text-white transition"
+        >
+          <Mail size={16}/>
+          Email
+        </a>
+
+      </div>
       </aside>
 
       <div className="lg:pl-64">
